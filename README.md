@@ -1,118 +1,74 @@
-# Fraud Analytics & Data Science Portfolio  
-**By [Sanobar Shaikh](https://www.linkedin.com/in/sanobar-shaikh/)**  
-**Mentored by Industry Experts, VP & Senior Data Scientist (AI/ML), Wells Fargo**
+# Global Fraud Analytics and Applied AI Portfolio
+Architected by Sanobar Shaikh
 
-Welcome! This portfolio is a curated collection of hands-on, end-to-end data science and machine learning projects simulating real-world challenges in financial crime detection, risk analytics, and compliance. My work blends AI/ML technical depth, business context, and practical experience to deliver measurable impact across diverse fraud types, modeling challenges, and regulatory domains.
+## Executive Summary
+This portfolio presents a unified, multi-domain AI ecosystem engineered to detect and mitigate financial crime. Developed by Sanobar Shaikh, these projects bridge the gap between high-dimensional financial data and actionable risk intelligence.
 
----
-
-## Why This Portfolio?
-
-Financial fraud is ever-evolving—exploiting identity, behavioral, and system vulnerabilities. Institutions need robust, explainable solutions. Here, I demonstrate how advanced data science and AI can be practically applied to build scalable, risk-aware fraud detection and compliance systems that meet industry and regulatory expectations.
-
----
+## Why This Portfolio
+The financial sector is currently facing a convergence of traditional fraud and AI-augmented threats. This portfolio is designed to demonstrate a proactive defense strategy. Instead of isolated models, it showcases a holistic view of the fraud lifecycle—from transactional anomalies and synthetic identity creation to deepfake-augmented social engineering.
 
 ## What Sets Me Apart
+1. Multi-Domain Integration: While most analysts focus on a single fraud type, my work spans Transactional, Behavioral, and Media Forensics.
+2. Production-Ready Thinking: The transition from Jupyter Notebooks to a functional Streamlit Dashboard demonstrates my ability to deploy models into real-world business environments.
+3. Hybrid Methodology: I combine Supervised Learning (XGBoost, Random Forest) for known patterns with Unsupervised Learning (Isolation Forest) to detect emerging, "zero-day" fraud tactics.
 
-- **End-to-End ML Ownership:** Each project covers the full cycle—from data exploration and feature engineering to modeling, evaluation, and interpretability.
-- **Business-Aligned Impact:** Solutions are grounded in real business needs, including fraud, risk, and KYC/AML compliance.
-- **Breadth & Depth in Data Science:** My portfolio spans classic machine learning, unsupervised anomaly detection, deep learning, clustering, and explainable AI.
-- **Outcome Focused:** Projects emphasize measurable results, clear visualizations, and actionable business value.
-- **Excellent Communication:** I present findings and methods in a way that’s accessible for both technical and non-technical audiences.
+## Interactive Dashboard
+The entire portfolio is accessible through a professional web-based interface that allows for real-time risk assessment and model interaction.
 
----
-
-## 🚀 Interactive Dashboard
-
-I have developed a **Professional Fraud Analytics Dashboard** using Streamlit that unifies these projects into a single functional web application.
-
-### How to Run:
-1. **Install Dependencies:**
-   ```bash
+### Running the Dashboard
+1. Clone the repository:
+   git clone https://github.com/Sanobar22/Fraud-Analytics-Portfolio.git
+2. Navigate to the project directory:
+   cd Fraud-Analytics-Portfolio
+3. Install the required dependencies:
    pip install -r requirements.txt
-   ```
-2. **Launch Dashboard:**
-   ```bash
+4. Execute the application:
    streamlit run app.py
-   ```
 
 ---
 
-## Featured Projects
-
-- **Transaction Fraud Detection:**  
-  Built an imbalanced-class pipeline using Random Forest, SMOTE, and SHAP, increasing fraud recall from 6% to 24%.  
-  [View Project →](https://github.com/sanobar-shaikh/Fraud-Analytics-with-AI-ML/tree/main/transaction-fraud-detection)
-
-- **Deepfake Detection with CNNs:**  
-  Developed hybrid deep learning models (image + tabular) for synthetic ID/media detection, achieving 88% accuracy.  
-  [View Project →](https://github.com/sanobar-shaikh/Fraud-Analytics-with-AI-ML/tree/main/Deepfake%20Detection%20with%20Neural%20Network)
-
-- **Check Kiting Detection using Unsupervised Learning:**  
-  Created behavioral features at the customer level and applied Isolation Forest to flag the top 0.5% of high-risk accounts, uncovering patterns consistent with systematic float exploitation in synthetic banking transactions.  
-  [View Project →](https://github.com/sanobar-shaikh/Fraud-Analytics-with-AI-ML/tree/main/Check%20Kiting%20Detection%20using%20Unsupervised%20learning)
-
-- **Identity Fraud Detection:**  
-  Built advanced classifiers using both transactional and identity metadata, ensemble ML, and clustering to catch impersonation and identity theft. Achieved a 41% increase in fraud recall and surfaced high-risk clusters using account velocity and device fingerprinting.  
-  [View Project →](https://github.com/sanobar-shaikh/Fraud-Analytics-with-AI-ML/tree/main/Identity-Fraud-Detection)
-
-- **Synthetic Identity Fraud Detection:**  
-  Modeled emerging synthetic identity risks using metadata and document analysis, neural networks, and tabular modeling to flag fake or mixed identities.  
-  [View Project →](https://github.com/sanobar-shaikh/Fraud-Analytics-with-AI-ML/tree/main/Sythetic%20Identity%20Fraud%20Detection) 
-
-- **More Projects:**  
-  - Exploratory Data Analysis (EDA) for credit card fraud  
-  - Account takeover (ATO) fraud detection using session and behavioral analytics  
-  - KYC/AML compliance system for regulatory risk monitoring and dashboards  
-  *(Browse the repo directory below for details on all projects)*
+## Core Skills and Tools
+1. Programming and Frameworks: Python (Pandas, NumPy, Scikit-Learn), TensorFlow, Keras, XGBoost.
+2. Analytical Methodologies: SMOTE for imbalanced data, PCA for dimensionality reduction, Anomaly Detection, Media Forensics.
+3. Deployment and Visualization: Streamlit, Plotly, Joblib for model persistence.
+4. Evaluation Metrics: ROC-AUC, Precision-Recall curves, F1-Score optimization.
 
 ---
 
-## Core Skills & Tools
+## Project Domains
 
-- **Programming & Tools:** Python, SQL, R, Jupyter, Git, Tableau, Power BI, scikit-learn, TensorFlow, pandas, NumPy, MobileNetV2
-- **Machine Learning & Analytics:** XGBoost, Random Forest, Isolation Forest, Voting Ensemble, PCA, SMOTE, K-Means, EDA, Anomaly Detection, Risk Scoring, Model Monitoring, Convolutional Neural Networks (CNN), SHAP
-- **Visualization:** SHAP-based feature attribution, compliance dashboards, Matplotlib, Seaborn, Plotly, Tableau, ggplot2
-- **Domain Expertise:** Fraud analytics (transaction, identity, synthetic, deepfake, ATO), AML/KYC, Credit Risk, Economic Index Modeling, Financial Forecasting, Business Strategy, ATM Deployment Analytics
-- **Applied Economics & Statistics:** Scenario planning, index numbers, economic indices, applied statistics
-- **Communication & Leadership:** Business communication, strategic reporting, stakeholder engagement, policy development
+### 1. Transaction Fraud Detection
+Objective: Real-time classification of fraudulent credit card transactions.
+Folder: /transaction-fraud-detection
+Algorithm: Random Forest with SMOTE optimization.
+Technical Note: Leverages PCA-transformed features to maintain data privacy while achieving high precision in risk flagging.
 
----
+### 2. Deepfake Media Forensics
+Objective: Detecting AI-generated synthetic faces in identity verification (eKYC) processes.
+Folder: /Deepfake Detection with Neural Network
+Algorithm: Convolutional Neural Network (CNN).
+Technical Note: Focuses on detecting spatial texture anomalies characteristic of GAN-generated imagery.
 
-## Fraud Detection Specializations
+### 3. Identity Fraud Detection
+Objective: Identifying synthetic identities and account takeover attempts.
+Folder: /Identity-Fraud-Detection
+Algorithm: XGBoost Gradient Boosting.
+Technical Note: Analyzes behavioral metadata including device fingerprints and geolocation to build a risk profile for every session.
 
-| Fraud Type              | Detection Method                     | Key Technologies                            |
-|-------------------------|--------------------------------------|---------------------------------------------|
-| Transaction Fraud       | Supervised ML, anomaly detection     | Random Forest, SMOTE, PCA, SHAP             |
-| Identity Fraud          | Clustering & behavioral modeling     | XGBoost, K-Means, account velocity analysis |
-| Synthetic Identity Fraud| Metadata & document analysis         | Neural nets, tabular modeling               |
-| Check Kiting            | Unsupervised anomaly detection       | Isolation Forest, behavioral profiling      |
-| Deepfakes               | Image/audio forensics                | CNN, MobileNetV2, TensorFlow                |
-| Account Takeover (ATO)  | Behavioral/session analysis          | PCA, Random Forest, time feature extraction |
-| AML/KYC Compliance      | Integrated risk modeling             | Feature attribution, compliance scoring     |
+### 4. Check Kiting Detection
+Objective: Identifying illegal "float" schemes in check-based transactions.
+Folder: /Check Kiting Detection using Unsupervised learning
+Algorithm: Isolation Forest (Anomaly Detection).
+Technical Note: Detects outliers in transaction velocity and balance shifts without the need for historical labels.
 
----
-
-## Repository Directory
-
-- [Transaction Fraud Detection](https://github.com/sanobar-shaikh/Fraud-Analytics-with-AI-ML/tree/main/transaction-fraud-detection)
-- [Deepfake Detection with Neural Network](https://github.com/sanobar-shaikh/Fraud-Analytics-with-AI-ML/tree/main/Deepfake%20Detection%20with%20Neural%20Network)
-- [Check Kiting Detection using Unsupervised Learning](https://github.com/sanobar-shaikh/Fraud-Analytics-with-AI-ML/tree/main/Check%20Kiting%20Detection%20using%20Unsupervised%20learning)
-- [Identity Fraud Detection](https://github.com/sanobar-shaikh/Fraud-Analytics-with-AI-ML/tree/main/Identity-Fraud-Detection)
-- [Synthetic Identity Fraud Detection](https://github.com/sanobar-shaikh/Fraud-Analytics-with-AI-ML/tree/main/Synthetic-Identity-Fraud-Detection) <!-- Update with correct link if needed -->
-- [Account Takeover Fraud Detection](https://github.com/sanobar-shaikh/Fraud-Analytics-with-AI-ML/tree/main/Account-Take-Over%20Fraud%20Detection)
-- [KYC/AML Compliance System](https://github.com/sanobar-shaikh/Fraud-Analytics-with-AI-ML/tree/main/kyc-aml-compliance-system)
-- [Credit Card EDA Analysis](https://github.com/sanobar-shaikh/Fraud-Analytics-with-AI-ML/tree/main/credit-card-eda-analysis)
+### 5. Compliance and AML Monitoring
+Objective: Automating regulatory screening and anti-money laundering monitoring.
+Folder: /KYC-AML Compliance system
+Focus: Risk-weighting algorithms and threshold-based monitoring for high-risk jurisdictions.
 
 ---
 
-## Connect with Me
-
-I'm passionate about using AI and data science to solve meaningful problems and deliver real-world impact. I’m open to exploring diverse roles where I can apply my skills across fraud analytics, data science, financial risk, and beyond.
-
-If you're building something impactful—let’s connect, collaborate, and make a difference together.
-
-[LinkedIn – Sanobar Shaikh](https://www.linkedin.com/in/sanobar-shaikh/)  
-[GitHub – sanobar-shaikh](https://github.com/sanobar-shaikh)
-
-
+## Contact
+Sanobar Shaikh
+LinkedIn: https://www.linkedin.com/in/sanobar-shaikh/
+GitHub: https://github.com/Sanobar22
